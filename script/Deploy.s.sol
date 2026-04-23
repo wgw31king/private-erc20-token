@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.24;
 
-import {Script} from "forge-std/Script.sol";
-import {console2} from "forge-std/console2.sol";
+import {Script} from "../lib/forge-std/src/Script.sol";
+import {console2} from "../lib/forge-std/src/console2.sol";
 import {MyToken} from "../src/MyToken.sol";
 
 /// @notice Deploy {MyToken} using env: TOKEN_NAME, TOKEN_SYMBOL, INITIAL_OWNER, PRIVATE_KEY (see `.env.example`).

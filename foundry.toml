@@ -9,7 +9,7 @@ via_ir = false
 evm_version = "paris"
 
 [fmt]
-line_length = 120
+line_length = 240
 tab_width = 4
 bracket_spacing = true
 ignore = ["lib/**"]
