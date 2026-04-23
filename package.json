@@ -1,0 +1,24 @@
+{
+  "name": "erc20-oz-foundry",
+  "version": "1.0.0",
+  "description": "Production-oriented ERC-20 reference implementation using **Foundry** and **OpenZeppelin Contracts v5**. It includes owner-governed minting, holder burning, explicit `Mint`/`Burn` events for indexers, and **two-step ownership** (`Ownable2Step`) to reduce accidental ownership loss.",
+  "scripts": {
+    "format": "prettier --write \"**/*.{sol,js,ts,tsx,json,md,yml,yaml}\"",
+    "format:check": "prettier --check \"**/*.{sol,js,ts,tsx,json,md,yml,yaml}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wgw31king/private-erc20-token.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wgw31king/private-erc20-token/issues"
+  },
+  "homepage": "https://github.com/wgw31king/private-erc20-token#readme",
+  "devDependencies": {
+    "prettier": "^3.8.3",
+    "prettier-plugin-solidity": "^2.3.1"
+  }
+}
