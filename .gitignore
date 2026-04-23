@@ -12,3 +12,16 @@ broadcast/
 .DS_Store
 .idea/
 .vscode/
+# VS Code 插件/配置
+.cursor-extensions/
+.vscode/
+
+# Node.js 依赖
+node_modules/
+
+# Foundry 缓存/依赖
+lib/
+out/
+cache/
+artifacts/
+broadcast/
